@@ -10,6 +10,7 @@ terraform {
 module "s3-bucket" {
   source  = "app.terraform.io/test_test_org/s3-bucket/aws"
   version = "4.7.0"
+  
 }
 
 provider "aws" {
